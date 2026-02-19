@@ -36,3 +36,24 @@ python xhs_crawler.py crawl \
 
 - 小红书前端结构会变动，脚本已做多路径解析，但仍可能需要按页面变化微调。
 - 请在遵守平台规则和法律法规的前提下使用。
+
+---
+
+## 心理时光机网页（React）
+
+已新增一个可以在电脑本地运行的 React 网页版本（代码在 `src/App.jsx`）。
+
+### 启动方式
+
+```bash
+npm install
+npm run dev
+```
+
+启动后打开终端里显示的本地地址（通常是 `http://localhost:5173`）。
+
+### 打包
+
+```bash
+npm run build
+```
